@@ -9,5 +9,10 @@
 ----
 ###Usage
 > 1. Enter a number from 1 - 100
-2. Watch a visual representation of a binary search algorithm
-3. Enter a new number, if desired
+> 2. Watch a visual representation of a binary search algorithm
+> 3. Enter a new number, if desired
+
+----
+###Sources
+> 1. www.dailywf.com - source of text files
+> 2. www.color-hex.com - reference for hex color codes

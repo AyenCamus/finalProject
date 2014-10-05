@@ -1,0 +1,27 @@
+@font-face { 
+  font-family: 'A750 Sans Condensed Light Regular'; 
+  src: url("a750_sans_condensed_light_regular/a750_sans_condensed_light_regular.eot");
+  src: local("A750 Sans Condensed Light Regular"),
+       url("a750_sans_condensed_light_regular/a750_sans_condensed_light_regular.eot") format('embedded-opentype'),
+       url("a750_sans_condensed_light_regular/a750_sans_condensed_light_regular.woff") format('woff'),
+       url("a750_sans_condensed_light_regular/a750_sans_condensed_light_regular.ttf") format('truetype'),
+       url("a750_sans_condensed_light_regular/a750_sans_condensed_light_regular.svg") format('svg');
+}
+
+@font-face { 
+  font-family: 'Agency FB'; /* Do the commas look too much like the periods?*/
+  src: "agency_fb.eot" format('embedded-opentype'), 
+       "agency_fb.woff" format('woff'), 
+       "agency_fb.tff" format('truetype'),
+       "agency_fb.svg" format('svg');
+} 
+
+@font-face { 
+  font-family: 'Affluent'; 
+  src: url("affluent/affluent.eot") format('embedded-opentype');
+  src: local("Affluent"),
+       url("affluent/affluent.eot") format('embedded-opentype'),
+       url("affluent/affluent.woff") format('woff'),
+       url("affluent/affluent.ttf") format('truetype'),
+       url("affluent/affluent.svg") format('svg');
+}

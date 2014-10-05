@@ -1,0 +1,344 @@
+body {
+  background-color: #eff8fb;
+}
+
+#header {
+  width:100%;
+  height: 95px;
+  background-color: #FFFFFF;
+  font-family: Impact;
+  font-weight: bold; 
+  text-align: center;
+  font-size: 300%;
+  font-family: Agency FB;
+  margin-top: 35px;
+}
+
+#infoTab {
+  display: inline-block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 18%;
+  margin-top: 5px;
+  height: 3.5%;
+  width: 6.25%;
+  background-color:white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 5px 5px 10px #d7dfe1;
+  padding-right: 23px;
+  padding-left: 23px;
+  padding-bottom: 0.3%;
+  padding-top: 0.25%;
+  text-align: center;
+  font-family: Agency FB;
+  font-size: 200%;
+  color: gray;
+}
+
+#infoText {
+  opacity: 0;
+  font-size: 75%;
+  text-align: justify;
+  color: black;
+}
+
+#keyTab {
+  display: inline-block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+  height: 3.5%;
+  width: 8.5%;
+  background-color:white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 5px 5px 10px #d7dfe1;
+  padding-bottom: 0.3%;
+  padding-top: 0.25%;
+  text-align: center;
+  font-family: Agency FB;
+  font-size: 200%;
+  color: gray;
+}
+
+#keyText {
+  opacity: 0;
+  font-size: 50%;
+}
+
+td {
+  vertical-align: middle;
+  font-size: 150%;
+  height: 75px;
+}
+
+table {
+  margin: auto;
+}
+
+#stickExample {
+  display: inline-block;
+  margin: 5px;
+  width: 2.5px;
+  height: 50px;
+  background-color: #211b8f;
+  margin-right: ;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+#yourNumExample {
+  display: inline-block;
+  margin: 5px;
+  width: 3px;
+  height: 50px;
+  background-color: red;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px red, 0 0 10px red,
+              0 0 0px red, 0 0 0px red,
+              0 0 0px red;
+}
+
+#halfwayExample {
+  display: inline-block;
+  margin: 5px;
+  width: 2.5px;
+  height: 50px;
+  background-color: #bbd3db;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px blue, 0 0 10px blue,
+         0 0 15px blue, 0 0 0px blue,
+         0 0 0px blue;
+}
+
+#greyedOutExample {
+  display: inline-block;
+  margin: 5px;
+  width: 3px;
+  height: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #bbd3db;
+}
+
+#aboutTab {
+  display: inline-block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 18%;
+  right: 0;
+  margin-top: 5px;
+  height: 3.5%;
+  width: 6.25%;
+  background-color:white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 5px 5px 10px #d7dfe1;
+  padding-right: 23px;
+  padding-left: 23px;
+  padding-bottom: 0.3%;
+  padding-top: 0.25%;
+  text-align: center;
+  font-family: Agency FB;
+  font-size: 200%;
+  color: gray;
+}
+
+#aboutText {
+  opacity: 0;
+  font-size: 75%;
+  text-align: justify;
+  color: black;
+}
+
+#codefellowsLink {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+#codefellowsLink:hover {
+  text-decoration: none;
+  color: #FF3333;
+}
+
+.stickDivs {
+  display: inline-block;
+  width: 5px;
+  height: 100px;
+  background-color: #211b8f;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+#stickContainer {
+  width: 1515px;
+  height: 120px;
+  background-color: #d0ebf4;
+  margin: auto;
+  margin-top:300px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+#userInput {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+#yourNumber {
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 250%;
+  font-family: "A750 Sans Condensed Light Regular", Agency FB;
+  text-align: center;
+}
+
+#foundIn {
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-family: "A750 Sans Condensed Light Regular", Agency FB;
+  font-size: 250%;
+  text-align: center;
+}
+
+#counter {
+  font-weight: bold;
+  font-family: "A750 Sans Condensed Light Regular", Agency FB;
+  color: black;
+  font-size: 100%;
+}
+
+#enteredNum {
+  font-family: "A750 Sans Condensed Light Regular", Agency FB;
+  font-size:200%;
+  color: red;
+}
+
+#vis {
+  font-family: Agency FB;
+  color:#908dc7;
+  font-size: 55%;
+}
+
+#flash {
+  margin-top: 8%;
+  color: red;
+  text-align: center;
+  font-family: Agency FB;
+  font-size: 150%;
+  opacity: 0;
+}
+
+.glow {
+  opacity: 0;
+  display: inline-block;
+  width: 5px;
+  height: 100px;
+  background-color: #bbd3db;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px blue, 0 0 10px blue,
+         0 0 15px blue, 0 0 0px blue,
+         0 0 0px blue;
+}
+
+.glowRed {
+  opacity: 0;
+  display: inline-block;
+  width: 5px;
+  height: 100px;
+  background-color: red;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px red, 0 0 10px red,
+              0 0 0px red, 0 0 0px red,
+              0 0 0px red;
+}
+
+#pickNumber {
+  font-family: Agency FB;
+  font-size: 200%;
+}
+
+#findButton {
+  font-family: Agency FB;
+  font-size: 75%;
+  margin-top: 20px;
+}
+
+#input1 {
+  font-size: 75%;
+  font-family: Affluent;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+#input1:hover {
+box-shadow: 0 0 5px #d0ebf4, 0 0 10px #d0ebf4,
+            0 0 20px #d0ebf4, 0 0 30px #d0ebf4,
+            0 0 40px #d0ebf4;
+}
+
+#newNumButton {
+  opacity: 0;
+  margin: auto;
+  margin-top: 3%;
+  background-color: white;
+  height: 40px;
+  width: 215px;
+  font-family: "Agency FB";
+  text-align: center;
+  font-size: 200%;
+  color: gray;
+  padding-top: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d7dfe1;
+  
+}
+
+#newNumButton:hover {
+  opacity: 1;
+  font-size: 210%;
+  color: red;
+  padding-top: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d7dfe1;
+  line-height: 1.2;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Binary Search Algorithm | Visualization</title>
+    <link rel="stylesheet" type="text/CSS" href="finalProject.css" />
+    <link rel="stylesheet" type="text/css" href="font.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.bitstorm.org/jquery/color-animation/jquery.animate-colors.js"></script>
+    <script type="text/javascript" src="finalProject.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        BINARY SEARCH ALGORITHM<br>
+      <div id="vis">VISUALIZATION</div>
+      </div>
+    </header>
+    <div id="yourNumber">Your number: <span id = "enteredNum">000</span></div>
+    <div id ="foundIn"></div>
+    <section id="tabs">
+      <div id="infoTab">
+        INFO<br>
+        <div id ="infoText">In this binary search function, the computer will try to find a given number in a range of numbers. It'll start by finding the halfway point in the range, and then will check to see if the given number is less than or more than that point. If the "mystery number" is in the lower half, it will stop searching the upper half, and vice versa. The process will be repeated, and the range will become smaller and smaller until the "mystery number" is found (i.e. until it is equal to the halfway point, rounded down if it's not a whole number.) </div>
+      </div>
+      <div id="keyTab">
+        KEY
+        <div id ="keyText">
+          <table>
+            <tr>
+              <td><div id="stickExample"></div></td>
+              <td>= current range</td>
+              <td><div id="yourNumExample"></div></td>
+              <td>= your number</td>
+            </tr>
+            <tr>
+              <td><div id="halfwayExample"></div></td> 
+              <td>= computer's guess</td>
+              <td><div id="greyedOutExample"></div></td> 
+              <td>= removed from range</td>
+            </tr>
+          </table>
+        </div>  
+      </div>
+      <div id="aboutTab">
+        ABOUT<br>
+        <div id ="aboutText">
+          This page was written by Adrienne Camus, as a project for <a href="https://www.codefellows.org" id="codefellowsLink">Code Fellows'</a> Foundations I class. Click the link for more information.
+        </div>
+      </div>
+    </section>
+    <div id="stickContainer"></div>
+    <form id="userInput">
+      <p align="center" id ="pickNumber">Pick a number for the computer to find (from 1 to 100.)<br> 
+        <input id="input1" type="text"><input id="findButton" type="submit" value="Search"></p>
+    </form>
+    <div id="newNumButton">RESET</div>
+    <div id="flash"><p>Please enter an integer from 1 to 100.</p></div>
+  </body>
+</html>

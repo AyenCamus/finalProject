@@ -111,9 +111,6 @@ $(document).ready(function() {
   //finished resetting game
 
   //define search function
-  var start = 0;
-  var end = 99;
-  var counter = 0;
   var performSearch = function() {
     counter += 1;
     setTimeout(function () {
@@ -166,6 +163,9 @@ $(document).ready(function() {
   
   //when user submits number
   $("#userInput").on("submit", function (e) {
+    start = 0;
+    end = 99;
+    counter = 0;
     e.preventDefault();
     userNum = $("#input1").val() - 1; //saves the number the user enter
     if (userNum % 1 === 0 && userNum >= 0 && userNum < 100) { //make sure user imput is valid (integer from 1 to 100)

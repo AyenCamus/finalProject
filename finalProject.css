@@ -6,7 +6,6 @@ body {
   width:100%;
   height: 95px;
   background-color: #FFFFFF;
-  font-family: Impact;
   font-weight: bold; 
   text-align: center;
   font-size: 300%;
@@ -14,28 +13,31 @@ body {
   margin-top: 35px;
 }
 
-#infoTab {
+.tabs {
   display: inline-block;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 18%;
-  margin-top: 5px;
   height: 3.5%;
-  width: 6.25%;
   background-color:white;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   box-shadow: 5px 5px 10px #d7dfe1;
-  padding-right: 23px;
-  padding-left: 23px;
   padding-bottom: 0.3%;
   padding-top: 0.25%;
   text-align: center;
   font-family: Agency FB;
   font-size: 200%;
   color: gray;
+}
+
+#infoTab {
+  left: 0;
+  right: 18%;
+  margin-top: 5px;
+  width: 6.25%;
+  padding-right: 23px;
+  padding-left: 23px;
 }
 
 #infoText {
@@ -46,25 +48,10 @@ body {
 }
 
 #keyTab {
-  display: inline-block;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 0;
   right: 0;
   margin-top: 5px;
-  height: 3.5%;
   width: 8.5%;
-  background-color:white;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  box-shadow: 5px 5px 10px #d7dfe1;
-  padding-bottom: 0.3%;
-  padding-top: 0.25%;
-  text-align: center;
-  font-family: Agency FB;
-  font-size: 200%;
-  color: gray;
 }
 
 #keyText {
@@ -133,27 +120,12 @@ table {
 }
 
 #aboutTab {
-  display: inline-block;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 18%;
   right: 0;
   margin-top: 5px;
-  height: 3.5%;
   width: 6.25%;
-  background-color:white;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  box-shadow: 5px 5px 10px #d7dfe1;
   padding-right: 23px;
   padding-left: 23px;
-  padding-bottom: 0.3%;
-  padding-top: 0.25%;
-  text-align: center;
-  font-family: Agency FB;
-  font-size: 200%;
-  color: gray;
 }
 
 #aboutText {
@@ -336,7 +308,6 @@ box-shadow: 0 0 5px #d0ebf4, 0 0 10px #d0ebf4,
   opacity: 1;
   font-size: 210%;
   color: red;
-  padding-top: 5px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #d7dfe1;
   line-height: 1.2;

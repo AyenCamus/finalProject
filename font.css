@@ -10,15 +10,17 @@
 
 @font-face { 
   font-family: 'Agency FB'; /* Do the commas look too much like the periods?*/
-  src: "agency_fb.eot" format('embedded-opentype'), 
-       "agency_fb.woff" format('woff'), 
-       "agency_fb.tff" format('truetype'),
-       "agency_fb.svg" format('svg');
+  src: url("/agency_fb/agency_fb.eot");
+  src: local("Agency FB"),
+       url("agency_fb/agency_fb.eot") format('embedded-opentype'), 
+       url("agency_fb/agency_fb.woff") format('woff'), 
+       url("agency_fb/agency_fb.tff") format('truetype'),
+       url("agency_fb/agency_fb.svg") format('svg');
 } 
 
 @font-face { 
   font-family: 'Affluent'; 
-  src: url("affluent/affluent.eot") format('embedded-opentype');
+  src: url("affluent/affluent.eot");
   src: local("Affluent"),
        url("affluent/affluent.eot") format('embedded-opentype'),
        url("affluent/affluent.woff") format('woff'),
